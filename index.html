@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study with You 💕</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hi, my love 💕</h1>
+    <p>Paste your notes below — I’ll turn them into study magic ✨</p>
+
+    <textarea id="notes" placeholder="Paste your notes here..."></textarea>
+
+    <div class="mode-select">
+      <button onclick="startStudy('flashcards')">💡 Flashcards</button>
+      <button onclick="startStudy('mcq')">🎯 Multiple Choice</button>
+      <button onclick="startStudy('written')">✍️ Written Answers</button>
+    </div>
+
+    <div id="study-area"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
